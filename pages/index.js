@@ -23,9 +23,6 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>As a student of software development at Brigham Young University-Idaho, I've explored various realms of coding, Full Stack development has become my true passion. From experiencing .NET Razor Pages and MVC Core to venturing into React, Next.js, Typescript, and Tailwind, I'm continuously expanding my skills to craft seamless digital experiences. Each line of code I write fuels my enthusiasm to push boundaries and redefine what's possible in technology.</p>
       </section>
-      <Link href={'/posts/first-post'}>
-        First Post
-      </Link>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
